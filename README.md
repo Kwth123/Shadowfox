@@ -1,4 +1,4 @@
-# Shadowfox Project
+# Shadowfox project beginner/intermediate
 
 ## Project Setup
 
@@ -27,4 +27,11 @@ source myenv/bin/activate #macOS/Linux
 
 ```bash
 pip install -r requirements.txt
+```
+
+### 5. To run the Store Sales and Profit analysis script:
+
+```bash
+python BostonHousePricePred.py
+python StoreSalesAndProfit.py
 ```
