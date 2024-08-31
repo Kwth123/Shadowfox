@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 #CSV file location
-file_path = r'Intermediate Store Sales and Profit Analysis\Sample - Superstore.csv'
+file_path = r'Sample - Superstore.csv'
 df = pd.read_csv(file_path, encoding='ISO-8859-1')
 
 df['Order Date'] = pd.to_datetime(df['Order Date'], format='%m/%d/%Y')#Convert the field Order Date to datetime
