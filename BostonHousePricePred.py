@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Load the dataset
-df = pd.read_csv(r'Beginner Boston House price prediction\HousingData.csv')
+df = pd.read_csv(r'HousingData.csv')
 
 # Impute missing values with the median of each feature column
 df.fillna(df.median(), inplace=True)
